@@ -11,7 +11,7 @@ Nitrokey Start, Linux
    *
 
 1. Install ``scdaemon`` and GnuPG 2.1 or higher by using your package
-   manager (e.g. ``apt update && apt install scdaemon gpg2`` on Ubuntu).
+   manager (e.g. ``apt update && apt install scdaemon gnupg2`` on Ubuntu).
 2. Connect your Nitrokey to your computer.
 3. Use GnuPG to `generate new keys or import existing
    ones <openpgp.html>`__.

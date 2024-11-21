@@ -23,16 +23,21 @@ nano .env
 #
 # Mandatory:
 #
-# WEBLATE_URL:      this can your local instance of weblate (https://hub.docker.com/r/weblate/weblate) 
-#                   or the URL of the test-server's weblate instance
-# WEBLATE_API_KEY:  from WEBLATE_URL at: /accounts/profile/#api
 # SPHINX_PATH:      the full path to where this repository has been checked out at
 # LOGFILE_PATH:     can be the same as SPHINX_PATH
-
+# 
 # Optional:
 #
 # PRIORITY_LANGUAGES:   modify to your needs
 # OTHER_LANGUAGES:      will be used for full builds
+#
+# If you want to run your own local weblate, or use
+# the instance on the test server, you must set these:
+# 
+# WEBLATE_URL:      this can your local instance of weblate 
+#                   (https://hub.docker.com/r/weblate/weblate) 
+#                   or the URL of the test-server's weblate instance
+# WEBLATE_API_KEY:  from WEBLATE_URL at: /accounts/profile/#api
 ```
 
 Use `docker-compose.override.yml.example` if you run into permission-troubles with docker. Copy the file and remove the `.example`-suffix, then add your user and group ids. This will force all files created by docker to be created by that user and group.

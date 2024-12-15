@@ -1,8 +1,9 @@
 
+FMT ?= html
 
 .PHONY: docs
 docs: venv
-	venv/bin/sphinx-build -j auto -b html -D language=en -d build/en/doctrees source dist/en
+	venv/bin/sphinx-build -j auto -b $(FMT) -D language=en -d build/en/doctrees source dist/en
 
 venv:
 	python -m venv venv

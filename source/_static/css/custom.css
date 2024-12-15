@@ -691,6 +691,16 @@ article ul li {
   margin: 0 0.5rem !important;
 }
 
+p.not-header {
+  font-size: 1.35em;
+  font-weight: 800;
+  margin-top: 1.3em;
+  margin-bottom: 0.7em;
+}
+
+
+/* breadcrumbs */
+
 #breadcrumbs .icon {
     display: none;
 }
@@ -718,6 +728,10 @@ article ul li {
 #breadcrumbs a:last-child:after {
     display: none;
 }
+
+
+
+/* Custom css for `products-table` directive */
 
 .products-table table {
     width: 90%;
@@ -758,6 +772,14 @@ article ul li {
     font-weight: bold;
 }
 
+/* Card class (sphinx_design) */
+
+.sd-card {
+    border: 3px solid var(--sd-color-card-border);
+}
+
+
+/* ----------------- not active:
 /* tooltips */
 
 /* use class to show tooltip for element */

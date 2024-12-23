@@ -9,12 +9,6 @@ This document explains how to use the PIV application of a Nitrokey 3 for smartc
 
 In the future, this manual provisioning may be automated through a Windows MiniDriver.
 
-.. warning::
-   The PIV application of the Nitrokey 3 is currently considered unstable and is not available on the stable firmware releases.
-   To obtain that functionality it is required to install a test firmware.
-   Subsequent firmware updates may lead to loss of data and cryptographic keys.
-   Please refer to `the firmware update documentation </nitrokey3/windows/firmware-update.html#firmware-release-types>`__ for more information.
-
 Prerequisites
 -------------
 

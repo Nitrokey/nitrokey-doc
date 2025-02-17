@@ -4,7 +4,8 @@ Nitrokey App 2 is the graphical application for Nitrokey 3 devices. For Nitrokey
 
 Installation
 ------------
-Download it for `Linux <installation_linux>`__ or `Windows <installation_windows>`__.
+Download it for `Linux <installation-linux>`__ , `Windows <installation-windows>`__ or `macOS <installation-mac>`__ (pipenv only).
+
 
 Supported Features
 ------------------

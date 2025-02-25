@@ -24,6 +24,7 @@ and the product guides:
     LED and Touch Button <led>
     nitropy <nitropy>
     Reset <reset>
+    Secure Element <secure-element>
     Troubleshooting <troubleshooting>
 
 or check out the features:

@@ -12,9 +12,9 @@ The Nitrokey Passkey supports two-factor authentication (2FA) and
 passwordless authentication:
 
 -  With **passwordless authentication**, entering a password is replaced
-   by logging in with the Nitrokey FIDO2 and a PIN.
+   by logging in with the Nitrokey Passkey and a PIN.
 
--  With **two-factor authentication** (2FA), the Nitrokey FIDO2 is
+-  With **two-factor authentication** (2FA), the Nitrokey Passkey is
    checked in addition to the password.
 
 The Nitrokey Passkey can be used with any current browser.

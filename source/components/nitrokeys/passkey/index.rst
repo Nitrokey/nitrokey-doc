@@ -6,7 +6,7 @@ Introduction
 ------------
 
 
-The Nitrokey Passkey is a secure authentication device designed to enhance two-factor authentication (2FA) using the FIDO2/WebAuthn standard. 
+The Nitrokey Passkey is a secure authentication device designed to enhance two-factor authentication (2FA) and passwordless login using the FIDO2/WebAuthn standard. 
 It provides a convenient way to protect digital identities by securely storing cryptographic keys within the hardware, ensuring sensitive information never leaves the device. 
 Compatible with various platforms, including Windows, macOS, Linux, and mobile devices, the Passkey supports popular services such as Google and Microsoft without requiring proprietary software. 
 With a focus on security and user privacy, the Nitrokey Passkey is an excellent choice for individuals and organizations looking to improve their cybersecurity.

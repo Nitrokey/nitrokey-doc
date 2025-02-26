@@ -1,6 +1,24 @@
 Getting Started
 ===============
 
+
+Passkeys are a modern way to log into websites and apps without the need for traditional passwords, making it easier and safer for everyone. 
+Here’s a simple breakdown of what passkeys are, how they work, and how to use the Nitrokey Passkey.
+ 
+How do Passkeys work?
+--------------------- 
+
+Passkeys are a modern form of authentication that replaces passwords. 
+First you register your Nitrokey Passkey to a website. This way a secret is stored on your Nitrokey Passkey.
+The magic happens when you log in:
+
+When you want to access the service, the website will send a challenge to your device.
+If you haven't already done so, you plug in your Nitrokey and authenticate it (often via a button press or PIN). 
+Your device uses the private key to respond securely to a challenge from the website, confirming your identity without sending your information across.
+
+
+
+
 Hardware
 --------
 

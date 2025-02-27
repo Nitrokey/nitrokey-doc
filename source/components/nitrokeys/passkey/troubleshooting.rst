@@ -5,11 +5,12 @@ Troubleshooting
 General
 -------
 
-nitropy nkpk test
-
 On WebAuthn.io you can check various high-level functionalities, while webautn.bin.coffee provides good developer level details (technical) details.
 
 Check LED 
+
+
+"nitropy nkpk test"
 
 Windows
 -------

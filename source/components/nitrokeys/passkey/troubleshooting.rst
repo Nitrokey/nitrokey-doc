@@ -2,21 +2,29 @@
 Troubleshooting
 ===============
 
+General
+-------
 
 
+Nitrokey pk test
 
-Nitrokey is not detected
-------------------------
+On WebAuthn.io you can check various high-level functionalities, while webautn.bin.coffee provides good developer level details (technical) details.
+
+Check LED 
 
 Windows
 -------
 
+Device manager
+
 macOS
 ----- 
 
-
+lsusb 
 Linux
 -----
+
+lsusb
 
 If the Nitrokey is not detected, proceed the following:
 
@@ -27,5 +35,8 @@ If the Nitrokey is not detected, proceed the following:
    version <https://raw.githubusercontent.com/Nitrokey/libnitrokey/master/data/41-nitrokey_old.rules>`__
    of this file.
 2. Restart udev via ``sudo service udev restart`` or ``udevadm control --reload-rules && udevadm trigger`` if you are using Fedora.
+
+
+
 
 

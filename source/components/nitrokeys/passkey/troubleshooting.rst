@@ -5,8 +5,7 @@ Troubleshooting
 General
 -------
 
-
-Nitrokey pk test
+nitropy nkpk test
 
 On WebAuthn.io you can check various high-level functionalities, while webautn.bin.coffee provides good developer level details (technical) details.
 
@@ -19,6 +18,10 @@ Device manager
 
 macOS
 ----- 
+
+Cmdline: system_profiler SPUSBDataType | grep Nitrokey
+GUI: System Report > USB
+
 
 lsusb 
 Linux
@@ -39,4 +42,6 @@ If the Nitrokey is not detected, proceed the following:
 
 
 
+
+i
 

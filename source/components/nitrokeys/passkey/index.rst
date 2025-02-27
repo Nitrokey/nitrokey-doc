@@ -30,6 +30,7 @@ First check the:
 .. toctree::
    :maxdepth: 1
    :glob:
+
    Getting Started <getting-started>
    Frequently Asked Questions <faq>
    Troubleshooting <troubleshooting>

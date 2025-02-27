@@ -5,30 +5,35 @@ Troubleshooting
 General
 -------
 
-On WebAuthn.io you can check various high-level functionalities, while webautn.bin.coffee provides good developer level details (technical) details.
+* On WebAuthn.io you can check various high-level functionalities, while webautn.bin.coffee provides good developer level details (technical) details.
 
-Check LED 
+* Check if the LED is working as expected "link to led* You can test the Nitrokey Passkey using nitropy with. 
 
+* You can test the Nitrokey Passkey using nitropy with  "nitropy nkpk test".
 
-"nitropy nkpk test"
 
 Windows
 -------
 
-Device manager
+To check whether the Nitrokey Passkey is correctly recognized, open the Device Manager and check for the Nitrokey Passkey appearing as a USB device.
+
 
 macOS
 ----- 
+To check whether the Nitrokey Passkey is correctly recognized, open the System Report and check for the Nitrokey Passkey appearing as a USB device.
 
-Cmdline: system_profiler SPUSBDataType | grep Nitrokey
-GUI: System Report > USB
+Otherwise you can use the commandline with the following command:
+
+ If you want to check if your system recognizes the Nitrokey Passkey 
+
+ ..bash
+  system_profiler SPUSBDataType | grep Nitrokey
 
 
-lsusb 
 Linux
 -----
 
-lsusb
+To check whether the Nitrokey Passkey is correctly recognized, check if it is shown with `lsusb`.
 
 If the Nitrokey is not detected, proceed the following:
 

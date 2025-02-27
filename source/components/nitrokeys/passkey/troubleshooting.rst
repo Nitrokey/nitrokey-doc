@@ -16,7 +16,7 @@ macOS
 
 
 Linux
-----
+-----
 
 If the Nitrokey is not detected, proceed the following:
 

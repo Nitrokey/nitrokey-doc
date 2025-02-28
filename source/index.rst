@@ -6,8 +6,7 @@ Nitrokey Documentation
    :titlesonly:
 
    components/nitrokeys/index
-   components/nitropad/index
-   components/nitropc/index
+   components/nitropad-nitropc/index
    components/nitrophone/index
    components/nextbox/index
    components/nethsm/index

@@ -1,0 +1,1 @@
+.. include:: ../nitrokeys/features/openpgp-card/change-pins.rst
